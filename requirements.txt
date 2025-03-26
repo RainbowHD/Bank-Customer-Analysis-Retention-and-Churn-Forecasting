@@ -1,9 +1,8 @@
-joblib
-numpy
-pandas
-plotly
-streamlit
-sklearn
-os
+joblib==1.4.2
+numpy>=1.26.0,<2.0.0  
+pandas==2.2.3
+plotly==6.0.1  
+streamlit==1.44.0 
+scikit-learn==1.3.0
 imblearn
 xgboost
