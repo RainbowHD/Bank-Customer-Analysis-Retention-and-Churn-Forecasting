@@ -4,3 +4,6 @@ pandas
 plotly
 streamlit
 sklearn
+os
+imblearn
+xgboost

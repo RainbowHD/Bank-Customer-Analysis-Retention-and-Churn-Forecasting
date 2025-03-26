@@ -4,9 +4,14 @@ import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
 import joblib
+import os
 
 data = pd.read_csv("data/Churn_Modelling.csv")
 model = joblib.load("data/rf_model.joblib")
+
+with open('data/rf_model.joblib', 'rb') as file:
+    model = joblib.load(file)
+print(os.path.exists('data/rf_model.joblib'))
 
 st.set_page_config(
     page_title="Bank Customer Exploration Dashboard",
