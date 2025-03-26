@@ -6,9 +6,7 @@ import plotly.graph_objects as go
 import joblib
 
 data = pd.read_csv("data/Churn_Modelling.csv")
-
-with open('data/rf_model', 'rb') as file:
-    model = joblib.load(file)
+model = joblib.load("data/rf_model.joblib")
 
 st.set_page_config(
     page_title="Bank Customer Exploration Dashboard",
