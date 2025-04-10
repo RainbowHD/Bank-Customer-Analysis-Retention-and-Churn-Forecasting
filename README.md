@@ -17,3 +17,5 @@ This project investigates the factors influencing customer churn in the banking 
 
 ## **Bank Churn WebApp**  
 [**Click here to explore the Streamlit WebApp.**](https://bank-customer-analysis-retention-and-churn-forecasting.streamlit.app/)
+
+![Visualization of the key customer features](first.png)
