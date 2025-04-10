@@ -3,7 +3,7 @@
 **Data Source:** [Kaggle - Predicting Churn for Bank Customers](https://www.kaggle.com/datasets/adammaus/predicting-churn-for-bank-customers)  
 **Tools:** Python, Pandas (data processing), Plotly (interactive charts), XGBClassifier, RandomForestClassifier (classification), Streamlit (dashboard deployment)  
 
-![Code achieving 84% accuracy](https://github.com/RainbowHD/Bank-Customer-Analysis-Retention-and-Churn-Forecasting/blob/main/pages/predicting_notebook.ipynb)
+[Code achieving 84% accuracy](https://github.com/RainbowHD/Bank-Customer-Analysis-Retention-and-Churn-Forecasting/blob/main/pages/predicting_notebook.ipynb)
 
 #### **Project Description**  
 This project investigates the factors influencing customer churn in the banking sector and develops predictive models using **Exploratory Data Analysis (EDA)** and **machine learning** techniques. In the machine learning modeling phase, I applied various techniques to handle imbalanced data, including **SMOTE**, **oversampling**, and **undersampling**. The models achieve **84% accuracy**, making them effective for predicting churn.
